@@ -2,8 +2,6 @@
 	/* Created By Cameron Jordan 2021 */
 	/* This file creates 10 commits to github */
 	
-	require_once 'logininfo.php';
-	
 	# ----- Iterator File -----
 	$runFile = fopen("runtimes.txt", "r+");
 	$fileSize = filesize("runtimes.txt");
