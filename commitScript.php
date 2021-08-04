@@ -16,7 +16,7 @@
 		$runTimes++;
 		file_put_contents("runtimes.txt", $runTimes);
 		fclose($runFile);
-		shell_exec('git commit -a -m "updated file iteration number'. $runTimes .'"');
+		shell_exec('git commit -a -m "updated file iteration number '. $runTimes .'"');
 		exit("The current Iteration is $runTimes Time(s)\n");
 	}
 	else {
