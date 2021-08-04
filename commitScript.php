@@ -1,6 +1,6 @@
 <?php
 	/* Created By Cameron Jordan 2021 */
-	/* This file creates 10 commits to github */
+	/* This file creates 10 commits to git */
 	
 	# ----- Iterator File -----
 	$runFile = fopen("runtimes.txt", "r+");
